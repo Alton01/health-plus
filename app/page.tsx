@@ -17,11 +17,11 @@ export default function Home({ searchParams }: SearchParamProps) {
             alt="patient"
             height={1000}
             width={1000}
-            className="mb-6 h-10 w-10"
+            className="mb-4 h-10 w-10"
           />
 
           <PatientForm />
-          <div className="text-14-regular mt-10 flex justify-between">
+          <div className="text-14-regular mt-5 flex justify-between">
             <p className="justify-items-end text-dark-600 xl:text-left">
               © 2022 HealthPlus{" "}
             </p>
