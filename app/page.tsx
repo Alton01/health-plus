@@ -17,7 +17,7 @@ export default function Home({ searchParams }: SearchParamProps) {
             alt="patient"
             height={1000}
             width={1000}
-            className="mb-12 h-20 w-20"
+            className="mb-6 h-10 w-10"
           />
 
           <PatientForm />
