@@ -67,7 +67,7 @@ const PasskeyModal = () => {
 
   return (
     <AlertDialog open={open} onOpenChange={setOpen}>
-      <AlertDialogContent className="shad-alert-dialg">
+      <AlertDialogContent className="shad-alert-dialog">
         <AlertDialogHeader>
           <AlertDialogTitle className="flex items-start justify-between">
             Admin Access Verification
@@ -100,7 +100,7 @@ const PasskeyModal = () => {
             </InputOTPGroup>
           </InputOTP>
           {error && (
-            <p className="shad-error text-14-regular mt-14 flex justify-center">
+            <p className="shad-error text-14-regular mt-4 flex justify-center">
               {error}
             </p>
           )}

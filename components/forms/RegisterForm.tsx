@@ -308,7 +308,7 @@ const RegisterForm = ({ user }: { user: User }) => {
           control={form.control}
           fieldType={FormFieldType.SKELETON}
           name="identificationDocument"
-          label="Scanned Copy of Id Document"
+          label="Copy of Id Document (PNG, JPG or SVG Format)"
           renderSkeleton={(field) => (
             <FormControl>
               <FileUploader files={field.value} onChange={field.onChange} />
